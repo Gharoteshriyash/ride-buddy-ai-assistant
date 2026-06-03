@@ -4,11 +4,20 @@
 
 Ride Buddy is an AI-powered motorcycle travel assistant built using Make.com, OpenAI, Telegram, Google Maps, and Google Sheets.
 
-The assistant helps riders discover destinations, find restaurants, log rides, and receive AI-generated recommendations directly through Telegram.
+The assistant helps riders discover destinations, find restaurants, log rides, send SOS/help messages, retrieve weather forecast and receive AI-generated recommendations directly through Telegram.
 
 ## Workflow Architecture
 
 ![Workflow Overview](screenshots/workflow-overview.png.PNG)
+
+## Workflow Process
+
+1. User sends a command through Telegram.
+2. Make.com routes the request.
+3. External APIs retrieve required information.
+4. OpenAI processes and enriches the response.
+5. Results are returned to Telegram.
+6. Ride data is optionally stored in Google Sheets.
 
 ## Features
 
@@ -48,9 +57,9 @@ The assistant helps riders discover destinations, find restaurants, log rides, a
 ## Repository Structure
 
 * screenshots/
-* blueprint/
 * prompts/
-* docs/
+* Readme
+
 
 ## Skills Demonstrated
 
