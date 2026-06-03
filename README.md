@@ -8,7 +8,7 @@ The assistant helps riders discover destinations, find restaurants, log rides, a
 
 ## Workflow Architecture
 
-![Workflow Overview](screenshots/workflow-overview.PNG)
+![Workflow Overview](screenshots/workflow-overview.png.PNG)
 
 ## Features
 
