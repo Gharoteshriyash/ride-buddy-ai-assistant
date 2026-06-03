@@ -24,7 +24,7 @@ The assistant helps riders discover destinations, find restaurants, log rides, s
 ### Motorcycle Trip Recommendations
 
 * Finds nearby tourist destinations
-* Uses Google Maps Places API
+* Uses Google Maps Places API. Accepts when the weather is great (screenshot 1) and rejects in case the weather is unsuitable (screenshot 2).
 * Generates AI-powered travel suggestions
 
 ![Trip Recommendation: Good Weather](screenshots/ride-plan.png)
@@ -36,13 +36,12 @@ The assistant helps riders discover destinations, find restaurants, log rides, s
 
 Ride Buddy includes an SOS feature to help riders quickly request assistance during emergencies.
 
-#### Future Enhancements
+#### Current Capabilities
+* Trigger emergency assistance through a Telegram command.
+* Generate a predefined emergency alert message.
+* Share essential information with emergency contacts.
+* Reduce response time during roadside emergencies.
 
-- Live GPS location sharing
-- Google Maps location links
-- Multiple emergency contacts
-- One-tap emergency alerts
-- Nearby hospital and fuel station recommendations
 
 ![SOS Sample Text](./screenshots/sos-message.png.jpg)
 
