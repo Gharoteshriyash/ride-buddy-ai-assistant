@@ -27,11 +27,18 @@ The assistant helps riders discover destinations, find restaurants, log rides, s
 * Uses Google Maps Places API
 * Generates AI-powered travel suggestions
 
+![Trip Recommendation: Good Weather](screenshots/ride-plan.png)
+
+![Trip Recommendation:Bad Weather](screenshots/ride-plan-fallback.png)
+
 ### Restaurant Recommendations
 
 * Discovers highly-rated restaurants and bars
 * Uses AI to summarize options
 * Provides rider-focused recommendations
+
+![Restaurant Recommendation](screenshots/restaurants.png)
+
 
 ### Ride Logging
 
@@ -39,11 +46,15 @@ The assistant helps riders discover destinations, find restaurants, log rides, s
 * Structures data into JSON format
 * Stores ride information for future analysis
 
+![Ride Logging](screenshots/log-ride.png)
+
 ### Telegram Integration
 
 * Accepts commands through Telegram
 * Returns AI-generated responses
 * Provides a conversational experience
+
+![Telegram Interface](screenshots/weather-week.png)
 
 ## Technology Stack
 
