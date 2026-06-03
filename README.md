@@ -62,6 +62,31 @@ Ride Buddy includes an SOS feature to help riders quickly request assistance dur
 
 ![Ride Logging](screenshots/log-ride.png)
 
+## Commands & Keywords
+
+| Command | Description |
+|---|---|
+| ride | Checks live weather in Bahadurgarh and gives a full riding plan including places to visit within 150km, restaurants, fuel cost, ride difficulty, best time to start, fuel stops and packing list |
+| places | Suggests 4 popular tourist destinations within 150km of Bahadurgarh with distances, descriptions and Google Maps links |
+| restaurant | Finds top rated restaurants and bars nearby with ratings, cuisine type and rider friendly notes |
+| log | Logs a ride to Google Sheets. Format: log: [from] to [to], [distance]km, [duration]hrs, [weather], [notes], mood [1-5] |
+| sos/help | Sends an emergency alert to your emergency contact via WhatsApp and SMS using Twilio |
+| bike check | Generates a detailed pre-ride checklist specifically for the Hero Xpulse 200 4V |
+| moto fact | Sends a random interesting motorcycle fact, history or trivia |
+| weather week | Gives a 7 day riding forecast for Bahadurgarh with daily ride recommendations |
+| my stats | Pulls your Google Sheets ride history and generates a personal riding report with total km, favourite routes, mood analysis and suggestions |
+
+## Example Usage
+- Should I ride today?
+- Show me places near me
+- restaurant near me
+- log: Bahadurgarh to Morni Hills, 145km, 3hrs, sunny, amazing roads, mood 5
+- sos
+- bike check
+- moto fact
+- weather week
+- my stats
+
 ### Telegram Integration
 
 * Accepts commands through Telegram
