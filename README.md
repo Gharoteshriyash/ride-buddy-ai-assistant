@@ -31,6 +31,21 @@ The assistant helps riders discover destinations, find restaurants, log rides, s
 
 ![Trip Recommendation:Bad Weather](screenshots/ride-plan-fallback.png)
 
+
+### SOS / Emergency Assistance
+
+Ride Buddy includes an SOS feature to help riders quickly request assistance during emergencies.
+
+#### Future Enhancements
+
+- Live GPS location sharing
+- Google Maps location links
+- Multiple emergency contacts
+- One-tap emergency alerts
+- Nearby hospital and fuel station recommendations
+
+![SOS Sample Text](./screenshots/sos-message.png.jpg)
+
 ### Restaurant Recommendations
 
 * Discovers highly-rated restaurants and bars
@@ -63,12 +78,14 @@ The assistant helps riders discover destinations, find restaurants, log rides, s
 * Telegram Bot API
 * Google Maps Places API
 * Google Sheets
-* HTTP APIs
+* HTTP APIs (OpenWeather)
+* Twilio
 
 ## Repository Structure
 
-* screenshots/
-* prompts/
+* future enhancements
+* prompts
+* screenshots
 * Readme
 
 
